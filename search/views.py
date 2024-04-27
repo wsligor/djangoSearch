@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 
 # Create your views here.
-def searchView(request):
-    return render(request, 'base.html')
+def searchListView(request):
+    return render(request, 'search/searchList.html')
